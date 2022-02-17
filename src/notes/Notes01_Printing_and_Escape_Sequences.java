@@ -34,6 +34,83 @@ public class Notes01_Printing_and_Escape_Sequences {
 		problem1();
 		problem1();
 		
+		
+		
+		///////////////////////
+		
+		
+		
+		
+		
+		
+		
+		//declare String variable
+		String letters;
+		//initialize letters
+		letters = "abcd...";
+		
+		
+		//declare and initialize in the 1 line
+		String letters2 = "ABCD...";
+		/*
+		 *  = is a command
+		 *  it says take the right and store it in the left
+		 * 
+		*/
+		
+		System.out.println(letters);
+		System.out.println(letters2);
+		
+		letters2 = "OH MY... I'm stuck in the computer!!!";
+		System.out.println(letters2);
+		
+		letters2 = letters;
+		System.out.println(letters2);
+		/*
+		 * Concatenation
+		 * 
+		 * Basically is the act of smooshing (technical term) 2
+		 * 	Strings together.
+		 * 
+		 * Use a +
+		 * 
+		*/
+		
+		String word1 = "Oops";
+		String word2 = " I did it again...";
+		System.out.println(word1 + word2);
+		
+		/*
+		 * Now with a String literal
+		 * 
+		 * String Literal = the actual characters between the ""
+		 * 		It is LITERALLY the letters
+		 */
+		
+		String word3 = "mouse";
+		System.out.println("If you give a " + word3 + " a cookie...");
+		
+		String number = "5";
+		System.out.println(number + number);
+		
+		
+		int number2 = 5;
+		System.out.println(number2 + number2);
+		
+		
+		
+		
+		
+		
+		
+	//////////////////	
+		
+		
+		
+		
+		
+		
+		
 	}
 	
 	
@@ -44,6 +121,14 @@ public class Notes01_Printing_and_Escape_Sequences {
 		
 	}
 	
+	
+	
+public static void problem2() {
+		
+		System.out.println("Thank GOD tomorrow is Flex!");
+		
+		
+	}
 	
 	
 	
